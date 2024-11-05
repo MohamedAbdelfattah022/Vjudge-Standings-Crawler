@@ -4,7 +4,7 @@ from utils import login, fetch_standings, unify_data, save_to_json
 def main():
     session = requests.Session()
     
-    contest_id = "665213"
+    contest_id = "your_contest_id"
     login_url = "https://vjudge.net/user/login"
     contest_url = f"https://vjudge.net/contest/rank/single/{contest_id}"
     headers = {
